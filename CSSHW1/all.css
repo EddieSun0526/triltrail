@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    font-family: Castoro;
+    line-height: 1.5;
+}
+
+/* 全域設定 */
+.container{
+    max-width: 1296px;
+    margin: 0 auto;
+    font-family: Castoro, serif;
+    font-size: 24px;
+}
+
+*, *::before, *::after { 
+    box-sizing: border-box; 
+    /* outline:1px solid black; */
+ } 
+
+ a{
+    text-decoration: none;
+    color: black;
+ }
+
+ img{
+    height: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+ }
+
+
+
+
+/* Header 設定 */
+.header{
+    margin-top: 160px;
+}
+
+.heading, .subheading{
+    font-size: 128px;
+    letter-spacing: 0.12em;
+}
+
+.header-image{
+    display: block;
+    margin: 0 auto;
+}
+/* 可以使用 text-align: center; 但是要下在外包 <div> */
+
+.subheading{
+    margin-left: auto;
+}
+
+/* Introduction 設定 */
+.intro{
+    background: #EFEFEF;
+    padding: 48px;
+}
+.desc{
+    font-size: 32px;
+    margin-left: auto;
+}
+
+
+/* Main Area 設定 */
+.main{
+    margin-top: 80px;
+    margin-bottom: 160px;
+}
+
+.list-title{
+    color: #AE0000;
+    border-bottom: 3px solid #AE0000;
+    font-size: 40px;
+}
+
+.year-mark{
+    font-size: 20px;
+    font-style: italic;
+    color: #949494;
+}
+
+/* Footer Area 設定 */
+footer{
+    background: black;
+}
+
+.social-link{
+    padding: 64px 0px;
+    text-align: center;
+}
+
+.social-link li{
+    display: inline-block;
+}
+
+
+
+/* 模組化設定 */
+.w-50{
+    width: 50%;
+}
+
+.mb-2{
+    margin-bottom: 4px;
+}
+
+.mb-3{
+    margin-bottom: 8px;
+}
+
+.mb-4{
+    margin-bottom: 12px;
+}
+
+.mb-5{
+    margin-bottom: 16px;
+}
+
+.mb-11{
+    margin-bottom: 40px;
+}
+
+.mr-11{
+    margin-right: 40px;
+}
